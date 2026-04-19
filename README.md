@@ -17,6 +17,8 @@ Designed a 4-step chained pipeline where each LLM prompt takes output from the p
 ### 3. [Job Coaching Product — System Prompt for Claude-Powered Resume Editing](./job-coaching/)
 Authored the system prompt governing BeamJobs' live job coaching product — a multi-step, step-locked Claude workflow that guides resume editors through structured revisions. Originally built for ChatGPT, migrated to Claude after observing better context retention across complex multi-step tasks.
 
+From this experience, I learned that Claude 3.5 Sonnet often responds well to fewer examples and benefits strongly from explicitly structured prompts (like XML), while GPT-4 tends to be more flexible with natural-language instructions but still benefits from clear structure.
+
 ### 4. [API Migration — OpenAI to Claude with Temperature Calibration](./api-migration/)
 Documents the process of migrating BeamJobs' WordPress integration from the OpenAI API to the Claude API, including temperature calibration to match and improve on existing output behavior.
 
